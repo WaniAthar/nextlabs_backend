@@ -93384,7 +93384,7 @@ break
 case 2:q=5
 j=t.N
 i=t.z
-h=A.uC(A.a9(["Content-Type","application/json","ngrok-skip-browser-warning","69420"],j,i))
+h=A.uC(A.a9(["Content-Type","application/json"],j,i))
 s=8
 return A.J(f.Ma("http://18.218.49.219:8080/api/admin/login/",A.a9(["email",o.e.a.a,"password",o.f.a.a],j,j),h,i),$async$qU)
 case 8:n=b
@@ -93464,7 +93464,7 @@ var $async$kx=A.A(function(a,b){if(a===1)return A.D(b,r)
 while(true)switch(s){case 0:q.X(new A.amP(q))
 p=t.z
 s=2
-return A.J(A.tA(null).xL("http://18.218.49.219:8080/api/app/",A.uC(A.a9(["Authorization","Bearer "+A.i(q.cy.iK()),"Content-Type","application/json","ngrok-skip-browser-warning","69420"],t.N,p)),p),$async$kx)
+return A.J(A.tA(null).xL("http://18.218.49.219:8080/api/app/",A.uC(A.a9(["Authorization","Bearer "+A.i(q.cy.iK()),"Content-Type","application/json"],t.N,p)),p),$async$kx)
 case 2:o=b
 A.bI().cO(o.a)
 if(o.c===200)for(p=J.an(t.j.a(J.cv(o.a,"results"))),n=q.CW;p.t();){m=p.gH()
@@ -93480,7 +93480,7 @@ q=3
 n=o.z.iK()
 j=t.z
 s=6
-return A.J(h.xL("http://18.218.49.219:8080/api/category/",A.uC(A.a9(["Authorization","Bearer "+A.i(n),"Content-Type","application/json","ngrok-skip-browser-warning","69420"],t.N,j)),j),$async$BB)
+return A.J(h.xL("http://18.218.49.219:8080/api/category/",A.uC(A.a9(["Authorization","Bearer "+A.i(n),"Content-Type","application/json"],t.N,j)),j),$async$BB)
 case 6:m=b
 if(m.c===200){l=m.a
 A.bI().cO(l)
@@ -93559,7 +93559,7 @@ d=t.N
 c=t.z
 m=A.aFZ(A.a9(["name",j,"app_link",i,"points",h,"category",g,"subcategory",f,"image",A.aH5(a0,A.N8("image/"+A.i(B.b.ga2(e.split(".")))),e)],d,c))
 s=8
-return A.J(a.Ma("http://18.218.49.219:8080/api/app/create/",m,A.uC(A.a9(["Authorization","Bearer "+A.i(n.z.iK()),"Content-Type","multipart/form-data","ngrok-skip-browser-warning","69420"],d,c)),c),$async$uj)
+return A.J(a.Ma("http://18.218.49.219:8080/api/app/create/",m,A.uC(A.a9(["Authorization","Bearer "+A.i(n.z.iK()),"Content-Type","multipart/form-data"],d,c)),c),$async$uj)
 case 8:l=a3
 A.bI().cO(l.a)
 j=l.c===200||l.c===201
@@ -93863,7 +93863,7 @@ ik(){var s=0,r=A.G(t.H),q=this,p,o,n,m,l,k,j
 var $async$ik=A.A(function(a,b){if(a===1)return A.D(b,r)
 while(true)switch(s){case 0:k=q.x
 j=t.N
-j=A.a9(["Authorization","Bearer "+A.i(k.iK()),"Content-Type","application/json","ngrok-skip-browser-warning","69420"],j,j)
+j=A.a9(["Authorization","Bearer "+A.i(k.iK()),"Content-Type","application/json"],j,j)
 s=2
 return A.J(A.J0(A.bY("http://18.218.49.219:8080/api/user/",0,null),j),$async$ik)
 case 2:p=b
@@ -93890,7 +93890,7 @@ while(true)switch(s){case 0:q.X(new A.ars(q))
 p=t.N
 o=t.z
 s=2
-return A.J(A.tA(null).xL("http://18.218.49.219:8080/api/app/",A.uC(A.a9(["Authorization","Bearer "+A.i(q.x.iK()),"Content-Type","application/json","ngrok-skip-browser-warning","69420"],p,o)),o),$async$kx)
+return A.J(A.tA(null).xL("http://18.218.49.219:8080/api/app/",A.uC(A.a9(["Authorization","Bearer "+A.i(q.x.iK()),"Content-Type","application/json"],p,o)),o),$async$kx)
 case 2:n=b
 A.bI().cO(n.a)
 if(n.c===200)for(m=J.an(J.cv(n.a,"results")),l=q.r;m.t();){k=m.gH()
@@ -94057,7 +94057,7 @@ i===$&&A.a()
 h=n.w
 g=t.N
 f=t.z
-i.sZJ(A.a9(["Authorization","Bearer "+A.i(h.iK()),"Content-Type","application/json","ngrok-skip-browser-warning","69420"],g,f))
+i.sZJ(A.a9(["Authorization","Bearer "+A.i(h.iK()),"Content-Type","application/json"],g,f))
 i=n.a.c
 h=h.a
 h=h==null?null:A.he(h.a.h(0,"userid"))
@@ -94209,7 +94209,7 @@ t_(){var s=0,r=A.G(t.H),q=this,p,o,n,m,l
 var $async$t_=A.A(function(a,b){if(a===1)return A.D(b,r)
 while(true)switch(s){case 0:o=A.bY("http://18.218.49.219:8080/api/token",0,null)
 n=t.N
-m=A.a9(["Content-Type","application/json","ngrok-skip-browser-warning","69420"],n,n)
+m=A.a9(["Content-Type","application/json"],n,n)
 s=2
 return A.J(A.aM2(o,B.at.Bu(A.a9(["email",q.r.a.a,"password",q.w.a.a],n,n),null),m),$async$t_)
 case 2:l=b
@@ -94238,7 +94238,7 @@ mA(){var s=0,r=A.G(t.H),q=this,p,o,n,m,l
 var $async$mA=A.A(function(a,b){if(a===1)return A.D(b,r)
 while(true)switch(s){case 0:o=A.bY("http://18.218.49.219:8080/api/signup/",0,null)
 n=t.N
-m=A.a9(["Content-Type","application/json","ngrok-skip-browser-warning","69420"],n,n)
+m=A.a9(["Content-Type","application/json"],n,n)
 s=2
 return A.J(A.aM2(o,B.at.Bu(A.a9(["name",q.x.a.a,"email",q.r.a.a,"password",q.w.a.a],n,n),null),m),$async$mA)
 case 2:l=b
@@ -94366,7 +94366,7 @@ var $async$BC=A.A(function(a,b){if(a===1)return A.D(b,r)
 while(true)switch(s){case 0:q.X(new A.atH(q))
 p=t.N
 s=2
-return A.J(A.J0(A.bY("http://18.218.49.219:8080/api/points/",0,null),A.a9(["Authorization","Bearer "+A.i(q.d.iK()),"Content-Type","application/json","ngrok-skip-browser-warning","69420"],p,p)),$async$BC)
+return A.J(A.J0(A.bY("http://18.218.49.219:8080/api/points/",0,null),A.a9(["Authorization","Bearer "+A.i(q.d.iK()),"Content-Type","application/json"],p,p)),$async$BC)
 case 2:o=b
 if(o.b===200){n=B.at.nb(A.i3(A.i2(o.e).c.a.h(0,"charset")).dh(o.w),null)
 A.bI().cO(n)
@@ -94407,7 +94407,7 @@ this.ik()},
 DM(){var s=0,r=A.G(t.H),q=this,p,o,n,m,l,k
 var $async$DM=A.A(function(a,b){if(a===1)return A.D(b,r)
 while(true)switch(s){case 0:m=t.N
-l=A.a9(["Authorization","Bearer "+A.i(q.e.iK()),"ngrok-skip-browser-warning","69420"],m,m)
+l=A.a9(["Authorization","Bearer "+A.i(q.e.iK())],m,m)
 s=2
 return A.J(A.b0L(A.bY("http://18.218.49.219:8080/api/user/",0,null),A.a9(["name",q.f.a.a,"email",q.r.a.a],m,m),l),$async$DM)
 case 2:k=b
@@ -94426,7 +94426,7 @@ var $async$ik=A.A(function(a,b){if(a===1)return A.D(b,r)
 while(true)switch(s){case 0:q.X(new A.atO(q))
 p=q.e
 o=t.N
-o=A.a9(["Authorization","Bearer "+A.i(p.iK()),"Content-Type","application/json","ngrok-skip-browser-warning","69420"],o,o)
+o=A.a9(["Authorization","Bearer "+A.i(p.iK()),"Content-Type","application/json"],o,o)
 s=2
 return A.J(A.J0(A.bY("http://18.218.49.219:8080/api/user/",0,null),o),$async$ik)
 case 2:n=b
@@ -94491,7 +94491,7 @@ s=5
 break}k=A.tA(null)
 e=t.z
 s=7
-return A.J(k.xL("http://18.218.49.219:8080/api/check_permission/",A.uC(A.a9(["Authorization","Bearer "+A.i(l),"ngrok-skip-browser-warning","69420"],t.N,e)),e),$async$yC)
+return A.J(k.xL("http://18.218.49.219:8080/api/check_permission/",A.uC(A.a9(["Authorization","Bearer "+A.i(l)],t.N,e)),e),$async$yC)
 case 7:j=b
 if(m.c==null){n=[1]
 s=5
@@ -94559,7 +94559,7 @@ var $async$BE=A.A(function(a,b){if(a===1)return A.D(b,r)
 while(true)switch(s){case 0:q.X(new A.aw4(q))
 p=t.N
 s=2
-return A.J(A.J0(A.bY("http://18.218.49.219:8080/api/task/all/",0,null),A.a9(["Authorization","Bearer "+A.i(q.d.iK()),"Content-Type","application/json","ngrok-skip-browser-warning","69420"],p,p)),$async$BE)
+return A.J(A.J0(A.bY("http://18.218.49.219:8080/api/task/all/",0,null),A.a9(["Authorization","Bearer "+A.i(q.d.iK()),"Content-Type","application/json"],p,p)),$async$BE)
 case 2:o=b
 if(o.b===200){n=B.at.nb(A.i3(A.i2(o.e).c.a.h(0,"charset")).dh(o.w),null)
 A.bI().cO(n)
