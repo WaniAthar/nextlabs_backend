@@ -1,1 +1,1 @@
-web: gunicorn nextlabs_backend.asgi:application
+web: gunicorn nextlabs_backend.wsgi --log-file -
