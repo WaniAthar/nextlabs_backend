@@ -1,0 +1,6 @@
+django-cors-headers
+django
+djangorestframework
+pillow
+gunicorn
+uvicorn

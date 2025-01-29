@@ -1,1 +1,0 @@
-web: gunicorn nextlabs_backend.wsgi --log-file -
